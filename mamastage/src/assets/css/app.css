@@ -1,0 +1,211 @@
+ul{
+    list-style: none;
+}
+/****************************自定义按钮**************************************************/
+.logo_red{
+    background: #ED3742;
+    border-color: #ED3742;
+}
+.color_gray{
+    color: #5f5f60;
+}
+.color_blue{
+    color: #409EFF;
+}
+.fontWe_500{
+    font-weight: 500;
+}
+.fontWe_600{
+    font-weight: 600;
+}
+.el-icon-close:hover{
+    font-size: 18px;
+    color: #409EFF;
+    cursor: pointer;
+}
+#purchaseDetail_wrap .el-tabs__nav-scroll{
+    padding-left: 20px;
+    height: 46px;
+}
+#purchaseDetail_wrap .el-tabs__nav{
+    height: 45px;
+}
+#purchaseDetail_wrap .el-tabs__header{
+    margin: 0;
+}
+input[type="file"] {
+    display: none;
+}
+#video input[type='file'] {
+    display: block
+}
+/****************************elementUI消息弹框位置修改**************************************************/
+.el-message{
+    top: 30%;
+}
+/****************************elementUI表格样式自定义**************************************************/
+.el-table__header th, .el-table__header tr{
+    color: #606266;
+    background: #F5F5F5;
+}
+.el-table__body{
+    font-size: 12px;
+    color: #606266;
+}
+.el-table__footer-wrapper tbody td{
+    background: #ffffff
+}
+/* 采购商品详情 */
+#purchaseDetail_wrap .el-table--border .el-table__header th{
+    border-right: none;
+}
+/****************************elementUI分页样式自定义**************************************************/
+.el-pagination{
+    height: 37px;
+    padding-top: 12px;
+}
+/****************************elementUI表单样式自定义**************************************************/
+/* 自定义form宽度 需加类名 myForm */
+.myForm .el-form-item__content input{
+    width: 300px;
+}
+.titleT .el-input__inner{
+    width: 600px !important
+}
+.myForm .el-date-editor{
+    width: 300px;
+}
+
+/****************************各模块头部栏公共样式**************************************************/
+.model_topcol{
+    height: 46px;
+    border-bottom: 1px solid #E4E7ED;
+    color: #606266;
+    line-height: 46px;
+    padding-left: 25px;
+    background: #ffffff;
+    font-weight: 600;
+    padding-right: 10px;
+}
+.model_topcol>div{
+    float: right;
+}
+/****************************各模块底部栏公共样式**************************************************/
+.model_footer{
+    height: 50px;
+    border-top: 1px solid #E4E7ED;
+    text-align: right;
+    padding-right: 20px;
+
+}
+/****************************各模块主体栏公共样式**************************************************/
+.model_content{
+    padding: 10px;
+    background: #F5F5F5;
+}
+.model_content .model_content_inner{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #E4E7ED;
+}
+/* ***************************商品添加样式************************************************* */
+.updata_box input[type="file"] {
+    display: none;
+}
+.item_box ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 ;
+    margin: 0;
+    width: 100%;
+    margin: 10px
+}
+.item_box .item_box_conent{
+    padding: 0
+}
+.item_box .el-tree-node__content{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #d1e5f1;
+}
+.items_top input[type="file"] {
+    display: none;
+}
+.items_top .el-upload--picture-card{
+    width: 100px;
+    height: 100px;
+    line-height: 100px
+}
+.brand_top input[type="file"] {
+    display: none;
+}
+.brand_top .el-upload--picture-card{
+    width: 100px;
+    height: 100px;
+    line-height: 100px
+}
+.pic_up .el-upload--picture-card{
+    width: 108px;
+    height: 108px;
+    line-height: 108px;
+    margin-bottom: 40px
+}
+#videoT .el-upload--picture-card{
+    width: 108px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    color: white;
+    background: #409EFF;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px
+}
+.pic_up .el-upload-list__item{
+    width: 108px;
+    height: 108px;
+}
+.supply_check .el-tag .el-tag__close{
+    top:-20px;
+    right: 10px;
+    background: #C2C6CC;
+    color: white
+}
+.supply_check .el-tag .el-tag__close:hover{
+    font-size: 12px
+}
+.share .el-upload--picture-card{
+    width: 78px;
+    height: 78px;
+    line-height: 78px;
+}
+.other .el-tag{
+    background: none;
+    color: black;
+    border: none;
+    font-size: 14px
+}
+.other .el-icon-close{
+    background: #c0c4ca;
+    color: white;
+    width: 18px;
+    height: 18px;
+    line-height: 18px
+}
+.other .el-icon-close:hover{
+    font-size: 6px;
+    background: #c0c4ca;
+}
+.share .el-form-item {
+    margin-bottom: 0;
+    height: 140px;
+}
+.el-picker-panel{
+    left: 250px
+}
+.ediotrBox .el-form-item__content{
+    z-index: 1;
+}
+
